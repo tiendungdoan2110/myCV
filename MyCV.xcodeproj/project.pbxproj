@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C188BC3A1EC2A0990047E2A2 /* 18339169_412718379101805_2019417719_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C188BC371EC2A0990047E2A2 /* 18339169_412718379101805_2019417719_o.jpg */; };
+		C188BC3B1EC2A0990047E2A2 /* Avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C188BC381EC2A0990047E2A2 /* Avatar.jpg */; };
+		C188BC3C1EC2A0990047E2A2 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C188BC391EC2A0990047E2A2 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */; };
 		C18934B41EB84B0000F45B53 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18934B31EB84B0000F45B53 /* ViewControllerTableViewCell.swift */; };
 		C19AF8BD1EB4558200C9DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8BC1EB4558200C9DFE1 /* AppDelegate.swift */; };
 		C19AF8BF1EB4558200C9DFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8BE1EB4558200C9DFE1 /* ViewController.swift */; };
@@ -15,9 +18,6 @@
 		C19AF8C71EB4558200C9DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19AF8C51EB4558200C9DFE1 /* LaunchScreen.storyboard */; };
 		C19AF8D21EB4558300C9DFE1 /* MyCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8D11EB4558300C9DFE1 /* MyCVTests.swift */; };
 		C19AF8DD1EB4558300C9DFE1 /* MyCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8DC1EB4558300C9DFE1 /* MyCVUITests.swift */; };
-		C19AF8F01EB46DEC00C9DFE1 /* Avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C19AF8EF1EB46DEC00C9DFE1 /* Avatar.jpg */; };
-		C1C8A0171EB81EE7001FF729 /* the_dark_mountain-wallpaper-1280x800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C8A0161EB81EE7001FF729 /* the_dark_mountain-wallpaper-1280x800.jpg */; };
-		C1C8A0191EB81F2F001FF729 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C8A0181EB81F2F001FF729 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */; };
 		C1D28EED1EC1641F00AB7194 /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D28EEC1EC1641F00AB7194 /* SecondViewViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C188BC371EC2A0990047E2A2 /* 18339169_412718379101805_2019417719_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 18339169_412718379101805_2019417719_o.jpg; path = Image/18339169_412718379101805_2019417719_o.jpg; sourceTree = "<group>"; };
+		C188BC381EC2A0990047E2A2 /* Avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Avatar.jpg; path = Image/Avatar.jpg; sourceTree = "<group>"; };
+		C188BC391EC2A0990047E2A2 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg"; path = "Image/snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg"; sourceTree = "<group>"; };
 		C18934B31EB84B0000F45B53 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		C19AF8B91EB4558200C9DFE1 /* MyCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19AF8BC1EB4558200C9DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,9 +56,6 @@
 		C19AF8D81EB4558300C9DFE1 /* MyCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19AF8DC1EB4558300C9DFE1 /* MyCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITests.swift; sourceTree = "<group>"; };
 		C19AF8DE1EB4558300C9DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C19AF8EF1EB46DEC00C9DFE1 /* Avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Avatar.jpg; path = ../../../../Downloads/Avatar.jpg; sourceTree = "<group>"; };
-		C1C8A0161EB81EE7001FF729 /* the_dark_mountain-wallpaper-1280x800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "the_dark_mountain-wallpaper-1280x800.jpg"; path = "../../../../Downloads/the_dark_mountain-wallpaper-1280x800.jpg"; sourceTree = "<group>"; };
-		C1C8A0181EB81F2F001FF729 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg"; path = "../../../../Downloads/snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg"; sourceTree = "<group>"; };
 		C1D28EEC1EC1641F00AB7194 /* SecondViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,9 +141,9 @@
 		C19AF8EE1EB46D4F00C9DFE1 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				C1C8A0181EB81F2F001FF729 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */,
-				C1C8A0161EB81EE7001FF729 /* the_dark_mountain-wallpaper-1280x800.jpg */,
-				C19AF8EF1EB46DEC00C9DFE1 /* Avatar.jpg */,
+				C188BC371EC2A0990047E2A2 /* 18339169_412718379101805_2019417719_o.jpg */,
+				C188BC381EC2A0990047E2A2 /* Avatar.jpg */,
+				C188BC391EC2A0990047E2A2 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg */,
 			);
 			name = Image;
 			sourceTree = "<group>";
@@ -255,11 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C8A0171EB81EE7001FF729 /* the_dark_mountain-wallpaper-1280x800.jpg in Resources */,
-				C19AF8F01EB46DEC00C9DFE1 /* Avatar.jpg in Resources */,
+				C188BC3B1EC2A0990047E2A2 /* Avatar.jpg in Resources */,
+				C188BC3C1EC2A0990047E2A2 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg in Resources */,
+				C188BC3A1EC2A0990047E2A2 /* 18339169_412718379101805_2019417719_o.jpg in Resources */,
 				C19AF8C71EB4558200C9DFE1 /* LaunchScreen.storyboard in Resources */,
 				C19AF8C41EB4558200C9DFE1 /* Assets.xcassets in Resources */,
-				C1C8A0191EB81F2F001FF729 /* snowy_mountain_peak_above_clouds-wallpaper-1280x800.jpg in Resources */,
 				C19AF8C21EB4558200C9DFE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -142,6 +142,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fXe-M6-tBV"/>
+                    <connections>
+                        <outlet property="TestLabel" destination="OlF-vq-tko" id="pii-W4-JCC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yH-Id-9D8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

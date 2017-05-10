@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    let titles = ["Personal Information", "Career Objective/Goals", "Career Summary", "Technical Skill Summary", "Professional Experience", "Education/Soft-skills", "Achievement/Referrences"]
+    var titles = ["Personal Information", "Career Objective/Goals", "Career Summary", "Technical Skill Summary", "Professional Experience", "Education/Soft-skills", "Achievement/Referrences"]
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return titles.count
@@ -25,7 +25,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "segueFromHP", sender: nil)
+        performSegue(withIdentifier: "segueFromHP", sender: titles[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let guest =  segue.destination as! SecondViewViewController
+        guest.yon = sender as! String
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            titles.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
     }
 
     override func viewDidLoad() {
