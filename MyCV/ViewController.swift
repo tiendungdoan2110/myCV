@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var titles = ["Personal Information", "Career Objective/Goals", "Career Summary", "Technical Skill Summary", "Professional Experience", "Education/Soft-skills", "Achievement/Referrences"]
+    var identities = ["PI", "CO", "CS", "TSS", "PE", "ES", "AR"]
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return titles.count
@@ -25,7 +26,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "segueFromHP", sender: titles[indexPath.row])
+//        performSegue(withIdentifier: "segueFromHP", sender: titles[indexPath.row])
+        
+        let vcName = identities[indexPath.row]
+        let viewController = storyboard?.instantiateViewController(withIdentifier: vcName)
+        self.navigationController?.pushViewController(viewController!, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
