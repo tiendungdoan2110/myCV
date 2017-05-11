@@ -19,6 +19,7 @@
 		C19AF8D21EB4558300C9DFE1 /* MyCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8D11EB4558300C9DFE1 /* MyCVTests.swift */; };
 		C19AF8DD1EB4558300C9DFE1 /* MyCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AF8DC1EB4558300C9DFE1 /* MyCVUITests.swift */; };
 		C1D28EED1EC1641F00AB7194 /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D28EEC1EC1641F00AB7194 /* SecondViewViewController.swift */; };
+		C1E7C81B1EC3F8A90068C5E3 /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7C81A1EC3F8A90068C5E3 /* PersonalInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C19AF8DC1EB4558300C9DFE1 /* MyCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITests.swift; sourceTree = "<group>"; };
 		C19AF8DE1EB4558300C9DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D28EEC1EC1641F00AB7194 /* SecondViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
+		C1E7C81A1EC3F8A90068C5E3 /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				C19AF8C81EB4558200C9DFE1 /* Info.plist */,
 				C18934B31EB84B0000F45B53 /* ViewControllerTableViewCell.swift */,
 				C1D28EEC1EC1641F00AB7194 /* SecondViewViewController.swift */,
+				C1E7C81A1EC3F8A90068C5E3 /* PersonalInformationViewController.swift */,
 			);
 			path = MyCV;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E7C81B1EC3F8A90068C5E3 /* PersonalInformationViewController.swift in Sources */,
 				C19AF8BF1EB4558200C9DFE1 /* ViewController.swift in Sources */,
 				C19AF8BD1EB4558200C9DFE1 /* AppDelegate.swift in Sources */,
 				C18934B41EB84B0000F45B53 /* ViewControllerTableViewCell.swift in Sources */,
